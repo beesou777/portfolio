@@ -1,0 +1,214 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Expenses Sharing",
+            "type": "MERN Stack",
+            "thumbnail": "/images/projects/thumbnails/expenses-sharing.png",
+            "meta-description": "Expenses Sharing is a progressive web application (PWA) designed for sharing daily expenses with roommates, family or even friends.",
+            "description": "Progressive Web Application (PWA)",
+            "role": "Web Development / UI Design",
+            "mockups": {
+                "phone": "/images/projects/mockups/expenses-sharing-phone.png",
+                "tablet": "/images/projects/mockups/expenses-sharing-tablet.png",
+                "labtop": "/images/projects/mockups/expenses-sharing-labtop.png"
+            },
+            "links": {
+                "live": "https://expenses-sharing.yukilun.com",
+                "repo": "https://github.com/yukilun/expenses_sharing_app"
+            },
+            "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Mongoose", "Tailwind CSS", "Bcrypt", "JSON Web Token", "Nodemailer", "Axios", "Zustand", "Moment.js", "Recharts", "Framer Motion", "Swiper"],
+            "overview": "Expenses Sharing is a progressive web application (PWA) designed for sharing daily expenses with roommates, family or even friends. In Canada, I lived with my friends, so sometimes we found it frustrating when we needed to record our expenses, such as rent and groceries, and calculate the amounts owed. Therefore, I designed this web app to handle all this for us. Using the MERN stack, I was able to develop this PWA efficiently. The PWA's nature allows it to be installed both on desktops and phone devices, which makes it even more convenient to use in daily life.",
+            "video": "/videos/expenses-sharing.mp4",
+            "details": {
+                "labtop": [
+                    {"front": "/images/projects/details/expenses-sharing-labtop-1-front.png", "back": "/images/projects/details/expenses-sharing-labtop-1-back.png"}, 
+                    {"front": "/images/projects/details/expenses-sharing-labtop-2-front.png", "back": "/images/projects/details/expenses-sharing-labtop-2-back.png"},
+                    {"front": "/images/projects/details/expenses-sharing-labtop-3-front.png", "back": "/images/projects/details/expenses-sharing-labtop-3-back.png"}
+                ],
+                "phone": [
+                    {"front": "/images/projects/details/expenses-sharing-phone-1-front.png", "back": "/images/projects/details/expenses-sharing-phone-1-back.png"}, 
+                    {"front": "/images/projects/details/expenses-sharing-phone-2-front.png", "back": "/images/projects/details/expenses-sharing-phone-2-back.png"},  
+                    {"front": "/images/projects/details/expenses-sharing-phone-3-front.png", "back": "/images/projects/details/expenses-sharing-phone-3-back.png"}
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "name": "Chatflex",
+            "type": "Firebase + React",
+            "thumbnail": "/images/projects/thumbnails/chatflex.png",
+            "description": "Web Application",
+            "meta-description": "Chatflex is an instant messaging web application that allows users to communicate through text and images.",
+            "role": "Web Development / UI Design",
+            "mockups": {
+                "phone": "/images/projects/mockups/chatflex-phone.png",
+                "tablet": "/images/projects/mockups/chatflex-tablet.png",
+                "labtop": "/images/projects/mockups/chatflex-labtop.png"
+            },
+            "links": {
+                "live": "https://chatflex.yukilun.com",
+                "repo": "https://github.com/yukilun/chatflex"
+            },
+            "technologies": ["React", "Firebase", "SCSS", "Day.js", "React Icons"],
+            "overview": "Chatflex is an instant messaging web application that allows users to communicate through text and images. The purpose of this app was to test Firebase functionality. Firebase is a backend app development platform, which includes various services, such as storage, databases, and authentication. I can focus mainly on front-end development and store user information, chat records, and status in Firebase. With Firebase authentication, Chatflex's users can also log in with their existing Google, Facebook, or GitHub accounts.",
+            "video": "/videos/chatflex.mp4",
+            "details": {
+                "labtop": [
+                    {"front": "/images/projects/details/chatflex-labtop-1-front.png", "back": "/images/projects/details/chatflex-labtop-1-back.png"}, 
+                    {"front": "/images/projects/details/chatflex-labtop-2-front.png", "back": "/images/projects/details/chatflex-labtop-2-back.png"},
+                    {"front": "/images/projects/details/chatflex-labtop-3-front.png", "back": "/images/projects/details/chatflex-labtop-3-back.png"}
+                ],
+                "phone": [
+                    {"front": "/images/projects/details/chatflex-phone-1-front.png", "back": "/images/projects/details/chatflex-phone-1-back.png"}, 
+                    {"front": "/images/projects/details/chatflex-phone-2-front.png", "back": "/images/projects/details/chatflex-phone-2-back.png"},  
+                    {"front": "/images/projects/details/chatflex-phone-3-front.png", "back": "/images/projects/details/chatflex-phone-3-back.png"}
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "name": "Cute Avatar Sketch",
+            "type": "Next.js",
+            "thumbnail": "/images/projects/thumbnails/cute-avatar-sketch.png",
+            "meta-description": "Cute Avatar Sketch is a public REST API for generating cute sketch-style avatars based on your preferences or randomly.",
+            "description": "Public REST API",
+            "role": "Web Development / UI Design / Illustration",
+            "mockups": {
+                "phone": "/images/projects/mockups/cute-avatar-sketch-phone.png",
+                "tablet": "/images/projects/mockups/cute-avatar-sketch-tablet.png",
+                "labtop": "/images/projects/mockups/cute-avatar-sketch-labtop.png"
+            },
+            "links": {
+                "live": "https://cute-avatar-sketch.yukilun.com",
+                "repo": "https://github.com/yukilun/cute-avatar-sketch"
+            },
+            "technologies": ["Procreate", "GIMP", "Python", "React", "Next.js", "Tailwind CSS", "next-themes", "Prism.js", "React Icons", "React Spinners"],
+            "overview": "Cute Avatar Sketch is a public REST API for generating cute sketch-style avatars based on your preferences or randomly. The idea for this API came from video game character creators. Before building the API, I used Procreate to draw various facial expressions, hairstyles, expressions, and accessories options for the avatars and generated avatar images with all the combinations with Python scripts. The API was then built with Next.js, a react framework that enables server-side rendering. Next.js also supports API routing, so I could write both front-end and back-end code within the same code base. On the website, users can choose between light and dark modes based on their preferences. They can also find documentation to learn how to use the API endpoints, and the avatar maker to preview avatars with all the available options.",
+            "video": "/videos/cute-avatar-sketch.mp4",
+            "details": {
+                "labtop": [
+                    {"front": "/images/projects/details/cute-avatar-sketch-labtop-1-front.png", "back": "/images/projects/details/cute-avatar-sketch-labtop-1-back.png"}, 
+                    {"front": "/images/projects/details/cute-avatar-sketch-labtop-2-front.png", "back": "/images/projects/details/cute-avatar-sketch-labtop-2-back.png"},
+                    {"front": "/images/projects/details/cute-avatar-sketch-labtop-3-front.png", "back": "/images/projects/details/cute-avatar-sketch-labtop-3-back.png"}
+                ],
+                "phone": [
+                    {"front": "/images/projects/details/cute-avatar-sketch-phone-1-front.png", "back": "/images/projects/details/cute-avatar-sketch-phone-1-back.png"}, 
+                    {"front": "/images/projects/details/cute-avatar-sketch-phone-2-front.png", "back": "/images/projects/details/cute-avatar-sketch-phone-2-back.png"},  
+                    {"front": "/images/projects/details/cute-avatar-sketch-phone-3-front.png", "back": "/images/projects/details/cute-avatar-sketch-phone-3-back.png"}
+                ]
+            } 
+        },
+        {
+            "id": 4,
+            "name": "Dear K.",
+            "type": "Laravel + Vue.js",
+            "thumbnail": "/images/projects/thumbnails/dear-k.png",
+            "meta-description": "Dear K. is a demonstration of e-commerce website that sells Korean fashion items online.",
+            "description": "E-commerce Website",
+            "role": "Web Development / UI Design",
+            "mockups": {
+                "phone": "/images/projects/mockups/dear-k-phone.png",
+                "tablet": "/images/projects/mockups/dear-k-tablet.png",
+                "labtop": "/images/projects/mockups/dear-k-labtop.png"
+            },
+            "links": {
+                "live": "https://dear-k.yukilun.com",
+                "repo": "https://github.com/yukilun/dear-k"
+            },
+            "technologies": ["PHP", "Laravel", "Inertia.js", "Vue.js", "MySQL", "Ubuntu VM", "NGINX", "SCSS", "Bootstrap", "VeeValidate", "Yup", "Maska", "Font Awesome", "AOS", "Swiper", "Stripe"],
+            "overview": "Dear K. is an e-commerce website that sells Korean fashion items online. The goal of building this website was to learn PHP with the Laravel framework for back-end development, and Vue.js for front-end development. With Laravel, I gained a deeper understanding of the model-view-controller (MVC) design pattern. The built-in support that Laravel offers, such as routing, sessions, and user authentication, also helped me create the website very quickly. Like React, Vue.js allows me to build an interactive front-end with a component-based architecture. Inertia.js serves as a bridge between Laravel and Vue.js without requiring APIs. It also supports server-side rendering (SSR), which allows SEO optimization for the website. On the website, customers can register, login, and manage their accounts. They can add items to their cart, checkout, and view their orders anytime.",
+            "video": "/videos/dear-k.mp4",
+            "details": {
+                "labtop": [
+                    {"front": "/images/projects/details/dear-k-labtop-1-front.png", "back": "/images/projects/details/dear-k-labtop-1-back.png"}, 
+                    {"front": "/images/projects/details/dear-k-labtop-2-front.png", "back": "/images/projects/details/dear-k-labtop-2-back.png"},
+                    {"front": "/images/projects/details/dear-k-labtop-3-front.png", "back": "/images/projects/details/dear-k-labtop-3-back.png"}
+                ],
+                "phone": [
+                    {"front": "/images/projects/details/dear-k-phone-1-front.png", "back": "/images/projects/details/dear-k-phone-1-back.png"}, 
+                    {"front": "/images/projects/details/dear-k-phone-2-front.png", "back": "/images/projects/details/dear-k-phone-2-back.png"},  
+                    {"front": "/images/projects/details/dear-k-phone-3-front.png", "back": "/images/projects/details/dear-k-phone-3-back.png"}
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "name": "SCHOOLOOP",
+            "type": "UX/UI Design",
+            "thumbnail": "/images/projects/thumbnails/schooloop.png",
+            "meta-description": "SCHOOLOOP is a community app designed for post-secondary school students who would like to connect with their schoolmates.",
+            "description": "Moblie Application",
+            "role": "UX / UI Design",
+            "mockups": {
+                "phone": "/images/projects/mockups/schooloop-phone.png",
+                "labtop": "/images/projects/mockups/schooloop-labtop.png"
+            },
+            "links": {
+                "project": "https://www.figma.com/file/m3ELvxbHpKy8GSnInPNSiw/F22_G10_SCHOOLOOP?type=design&node-id=814%3A29477&mode=design&t=eWaV1Vpj9GHvBfUI-1",
+                "prototype": "https://www.figma.com/proto/m3ELvxbHpKy8GSnInPNSiw/F22_G10_SCHOOLOOP?type=design&node-id=445-3920&t=ZgfG7OQUWvUsEzjz-1&scaling=scale-down&page-id=445%3A2142&starting-point-node-id=445%3A3623&mode=design"
+            },
+            "technologies": ["Figma", "Procreate"],
+            "overview": "SCHOOLOOP is a community app designed for post-secondary school students who would like to connect with their schoolmates. After graduating from high school, students may choose to start their new journey in college or university. Without friends, it is quite common to feel stressed for school days, worry about missing any critical deadlines, unable to make new friends in school or cannot manage the heavy workload from the courses. Sometimes, current students who is going to start their new semester may also experience the same anxiety. My teammates and I understand these concerns of students and designed this app to help connecting students from the same school. With our app, students can make friends with similar interests, study together with schoolmates, create groups for different activities or join existing ones, share important and useful information, trade on a college marketplace, and have fun.",
+            "prototype": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fm3ELvxbHpKy8GSnInPNSiw%2FF22_G10_SCHOOLOOP%3Fnode-id%3D445-3920%26starting-point-node-id%3D445%253A3623%26scaling%3Dcontain%26mode%3Ddesign%26t%3DCMPeIys5dR2KP1F6-1%26hide-ui%3D1",
+            "details": {
+                "labtop": [
+                    {"front": "/images/projects/details/schooloop-labtop-1-front.png", "back": "/images/projects/details/schooloop-labtop-1-back.png"}, 
+                    {"front": "/images/projects/details/schooloop-labtop-2-front.png", "back": "/images/projects/details/schooloop-labtop-2-back.png"},
+                    {"front": "/images/projects/details/schooloop-labtop-3-front.png", "back": "/images/projects/details/schooloop-labtop-3-back.png"}
+                ],
+                "phone": [
+                    {"front": "/images/projects/details/schooloop-phone-1-front.png", "back": "/images/projects/details/schooloop-phone-1-back.png"}, 
+                    {"front": "/images/projects/details/schooloop-phone-2-front.png", "back": "/images/projects/details/schooloop-phone-2-back.png"},  
+                    {"front": "/images/projects/details/schooloop-phone-3-front.png", "back": "/images/projects/details/schooloop-phone-3-back.png"}
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "name": "Javascript Challenges",
+            "type": "My Learning Journey",
+            "thumbnail": "/images/projects/thumbnails/js-challenges.png",
+            "meta-description": "The Javascript Challenges are a record of bishwa initial learning curve in basic web development - HTML, CSS and Vanilla JS.",
+            "description": "Hobby Website",
+            "role": "Web Development",
+            "mockups": {
+                "phone": "/images/projects/mockups/js-challenges-phone.png",
+                "tablet": "/images/projects/mockups/js-challenges-tablet.png",
+                "labtop": "/images/projects/mockups/js-challenges-labtop.png"
+            },
+            "links": {
+                "live": "https://javascript-challenges.yukilun.com/",
+                "repo": "https://github.com/yukilun/javascript-challenges"
+            },
+            "technologies": ["Vue.js", "Nuxt.js", "Pinia" ,"Tailwind CSS", "GSAP", "Lenis", "Hover-effect"],
+            "overview": "The JavaScript Challenges serve as a documentation of my journey in web development — from basic HTML, CSS, and Vanilla JavaScript to various frameworks like React and Vue. Admittedly, some challenges may lack responsiveness, and certain pieces of code might not be optimal. Nonetheless, these challenges provided invaluable opportunities to refine my coding skills. Explore these challenges and feel free to take them on! During the creation of this showcase, I used Nuxt.js and created scroll animations and smooth page transitions with GSAP and Lenis Library.",
+            "video": "/videos/js-challenges.mp4",
+            "details": {
+                "labtop": [
+                    {"front": "/images/projects/details/js-challenges-labtop-1-front.png", "back": "/images/projects/details/js-challenges-labtop-1-back.png"}, 
+                    {"front": "/images/projects/details/js-challenges-labtop-2-front.png", "back": "/images/projects/details/js-challenges-labtop-2-back.png"},
+                    {"front": "/images/projects/details/js-challenges-labtop-3-front.png", "back": "/images/projects/details/js-challenges-labtop-3-back.png"}
+                ],
+                "phone": [
+                    {"front": "/images/projects/details/js-challenges-phone-1-front.png", "back": "/images/projects/details/js-challenges-phone-1-back.png"}, 
+                    {"front": "/images/projects/details/js-challenges-phone-2-front.png", "back": "/images/projects/details/js-challenges-phone-2-back.png"},  
+                    {"front": "/images/projects/details/js-challenges-phone-3-front.png", "back": "/images/projects/details/js-challenges-phone-3-back.png"}
+                ]
+            }
+        }
+    ],
+    "skills": {
+        "frontend": {
+            "languages": ["HTML", "CSS", "SCSS", "Javascript"],
+            "frameworks": ["Vue.js", "Next.js*", "Nuxt.js*", "Bootstrap", "Tailwind CSS"],
+            "libraries": ["Pinia","jQuery", "Axios", "GSAP", "Swiper", "... more"]
+        },
+        "backend": {
+            "languages": ["Javascript"],
+            "frameworks": ["Node.js", "Express.js"],
+            "databases": ["MongoDB"],
+            "servers": ["NGINX"]
+        }
+    }
+}

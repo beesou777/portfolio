@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=DM+Serif+Display:ital@0;1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    height: 100%;
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+
+  body {
+    height: 100%;
+    background-color: #f5f5dc;
+    color: #63605b;
+    overflow: hidden;
+    overscroll-behavior: none;
+    touch-action: none;
+  }
+
+  #__nuxt {
+    height: 100%;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    @apply font-serif;
+  }
+
+  /* Scrollbar style on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #a59a86 #f5f5dc; 
+  }
+
+  /* Scrollbar style on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #f5f5dc; 
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #a59a869d; 
+    border-radius: 999px;
+    border: 3px solid #f5f5dc;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #a59a86;
+  }
+}
+
+@layer components {
+  .content-container {
+    @apply mx-auto px-2 md:px-4 pb-[88px];
+  }
+  .text-highlight {
+    color: #5e768b;
+  }
+  .button {
+    @apply bg-[#b9a859] text-white shadow-lg inline-block transition-all opacity-70 hover:!scale-105 hover:!opacity-100 disabled:hover:!opacity-70 disabled:hover:!scale-100;
+  }
+}
