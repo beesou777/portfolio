@@ -14,8 +14,8 @@
                 "labtop": "/images/projects/mockups/expenses-sharing-labtop.png"
             },
             "links": {
-                "live": "https://expenses-sharing.yukilun.com",
-                "repo": "https://github.com/yukilun/expenses_sharing_app"
+                "live": "https://github.com/beesou777/expenses_sharing_app",
+                "repo": "https://github.com/beesou777/expenses_sharing_app"
             },
             "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Mongoose", "Tailwind CSS", "Bcrypt", "JSON Web Token", "Nodemailer", "Axios", "Zustand", "Moment.js", "Recharts", "Framer Motion", "Swiper"],
             "overview": "Expenses Sharing is a progressive web application (PWA) designed for sharing daily expenses with roommates, family or even friends. In Canada, I lived with my friends, so sometimes we found it frustrating when we needed to record our expenses, such as rent and groceries, and calculate the amounts owed. Therefore, I designed this web app to handle all this for us. Using the MERN stack, I was able to develop this PWA efficiently. The PWA's nature allows it to be installed both on desktops and phone devices, which makes it even more convenient to use in daily life.",
