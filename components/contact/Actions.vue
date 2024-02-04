@@ -68,9 +68,9 @@ const errorMsg = ref('');
 const successMsg = ref('');
 const isSending = ref(false);
 const formValues = reactive({
-    name: 'bishwa',
-    message: 'bishwa',
-    email: 's@gmail.com'
+    name: '',
+    message: '',
+    email: ''
 });
 function handleSubmit(event) {
     event.preventDefault();
