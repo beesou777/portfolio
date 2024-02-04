@@ -8,7 +8,7 @@
                 <AboutMySkills />
                 <AboutMyHobbies />
             </div>
-            <SectionNav path="contact"/>
+            <SectionNav path="contact" />
         </div>
     </div>
 </template>

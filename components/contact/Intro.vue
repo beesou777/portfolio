@@ -105,12 +105,12 @@
             </svg>
         </div>
         <h1 class="text-center text-2xl sm:text-3xl lg:text-4xl max-w-[600px] mb-6">
-            <span class="text-highlight">Get in touch</span> with me!
+            <span class="text-highlight text-teal-500">Get in touch</span> with me!
         </h1>
         <p class="text-base sm:text-lg lg:text-xl !leading-relaxed max-w-[600px] mb-5">
-            I am currently <span class="text-highlight font-bold">available</span> to work on any web development project.
-            Please feel free to reach out to me on <span class="text-highlight font-bold">social media</span>
-            or by <span class="text-highlight font-bold">email</span>.
+            I am currently <span class="text-highlight text-teal-500 font-bold">available</span> to work on any web development project.
+            Please feel free to reach out to me on <span class="text-highlight text-teal-500 font-bold">social media</span>
+            or by <span class="text-highlight text-teal-500 font-bold">email</span>.
         </p>
     </ScrollToggle>
 </template>

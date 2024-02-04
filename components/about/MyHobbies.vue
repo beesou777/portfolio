@@ -14,14 +14,14 @@
         Apart From Coding...
       </h2>
       <p class="text-base sm:text-lg lg:text-xl !leading-relaxed mb-5">
-        I am passionate of watching<span class="text-highlight font-bold">
+        I am passionate of watching<span class="text-highlight font-bold text-teal-500">
           anime</span
         >. When I have free time, I usually read
-        <span class="text-highlight font-bold"> articles</span> and
-        <span class="text-highlight font-bold"> blogs</span>.I adore embarking
-        on <span class="text-highlight font-bold"> adventures</span> to new
+        <span class="text-highlight font-bold text-teal-500"> articles</span> and
+        <span class="text-highlight font-bold text-teal-500"> blogs</span>.I adore embarking
+        on <span class="text-highlight font-bold text-teal-500"> adventures</span> to new
         places, immersing myself in the wonders of
-        <span class="text-highlight font-bold"> nature's beauty</span>. 🌍✨
+        <span class="text-highlight font-bold text-teal-500"> nature's beauty</span>. 🌍✨
       </p>
     </div>
   </div>
@@ -32,6 +32,6 @@
 
 <style scoped>
 .my-hobbies-image {
-  box-shadow: -15px 15px 0px #e4c6bf;
+  box-shadow: -15px 15px 0px #14b8a6;
 }
 </style>

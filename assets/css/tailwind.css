@@ -12,8 +12,8 @@
 
   body {
     height: 100%;
-    background-color: #f5f5dc;
-    color: #63605b;
+    background-color: #f5f5f5;
+    color: #0a0a0a;
     overflow: hidden;
     overscroll-behavior: none;
     touch-action: none;
@@ -55,9 +55,14 @@
     @apply mx-auto px-2 md:px-4 pb-[88px];
   }
   .text-highlight {
-    color: #5e768b;
+    color: #14b8a6;
   }
   .button {
     @apply bg-[#b9a859] text-white shadow-lg inline-block transition-all opacity-70 hover:!scale-105 hover:!opacity-100 disabled:hover:!opacity-70 disabled:hover:!scale-100;
   }
 }
+
+
+/* $secondary = #2a6f97 */
+/* $secondary = #2c7da0 */
+/* $secondary = #013a63 */

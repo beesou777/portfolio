@@ -4,11 +4,11 @@
             <h2 class="text-2xl sm:text-3xl lg:text-4xl mb-6">My Skills</h2>
             <p class="text-base sm:text-lg lg:text-xl !leading-relaxed mb-5">
                 Throughout my 1.5 years of learning at school and home,
-                I have acquired <span class="text-highlight font-bold">various skills</span> in both <span
-                    class="text-highlight font-bold">frontend</span> and <span
-                    class="text-highlight font-bold">backend</span> development.
-                I wish to <span class="text-highlight font-bold">deepen my understanding</span> from my <span
-                    class="text-highlight font-bold">future working experiences</span>.
+                I have acquired <span class="text-highlight font-bold text-teal-500">various skills</span> in both <span
+                    class="text-highlight font-bold text-teal-500">frontend</span> and <span
+                    class="text-highlight font-bold text-teal-500">backend</span> development.
+                I wish to <span class="text-highlight font-bold text-teal-500">deepen my understanding</span> from my <span
+                    class="text-highlight font-bold text-teal-500">future working experiences</span>.
             </p>
 
         </div>
@@ -19,7 +19,7 @@
                     <span class="capitalize">{{ propertyName }}:</span>
                     <div class="flex flex-wrap gap-1">
                         <div v-for="(item, subIndex) in arr" class="text-xs md:text-sm py-1 px-2 rounded-full"
-                            :class="(index % 2 == 0 && subIndex % 2 == 0) || (index % 2 != 0 && subIndex % 2 != 0) ? `bg-[#E4C6BF]` : `bg-[#A2C5C0]`">
+                            :class="(index % 2 == 0 && subIndex % 2 == 0) || (index % 2 != 0 && subIndex % 2 != 0) ? `bg-teal-400` : `bg-[#06b6d4]`">
                             {{ item }}
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                     <span class="capitalize">{{ propertyName }}:</span>
                     <div class="flex flex-wrap gap-1">
                         <div v-for="(item, subIndex) in arr" class="text-xs md:text-sm py-1 px-2 rounded-full"
-                            :class="(index % 2 == 0 && subIndex % 2 == 0) || (index % 2 != 0 && subIndex % 2 != 0) ? `bg-[#E4C6BF]` : `bg-[#A2C5C0]`">
+                            :class="(index % 2 == 0 && subIndex % 2 == 0) || (index % 2 != 0 && subIndex % 2 != 0) ? `bg-teal-400` : `bg-[#06b6d4]`">
                             {{ item }}
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="menu flex-shrink-0 w-full z-20 bg-[#617079] px-6 overflow-hidden"
+    <div class="menu flex-shrink-0 w-full z-20 bg-teal-500 px-6 overflow-hidden"
         :class="isOpenMenu ? 'h-[400px] md:h-[450px] pb-[100px] pt-6': 'h-0'">
         <div class="menu-container flex gap-5 max-w-fit mx-auto pb-6 overflow-x-auto" ref="menuContainer">
             <MenuCard path="home" />

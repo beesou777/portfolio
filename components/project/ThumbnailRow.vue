@@ -1,11 +1,11 @@
 <template>
-    <NuxtLink :to="`/projects/${project.id}`" @mouseenter="cursorText='View More'" @mouseleave="cursorText=null" class="cursor-none">
+    <NuxtLink @mouseenter="cursorText='View More'" @mouseleave="cursorText=null" class="cursor-none">
         <ScrollParallax :translateYpc="20" :opacityFrom="0.7" :opacityTo="1"
             class="project-thumbnail-row h-fit flex flex-col justify-center relative mb-16 md:mb-32 group"
             :class="project.id % 2 !== 0 ? `items-end` : `items-start`" :id="`project-thumbnail-${project.id}`">
             <div class="project-thumbnail shadow-lg bg-[#cabb78] w-[85%] md:w-[70%] aspect-[6/4] overflow-hidden relative flex flex-col justify-center items-center"> <!--duration-700 scale-100 group-hover:scale-105 transition-all-->
                 <img class="target w-full h-[150%] object-cover" :src="`${project.thumbnail}`" alt="">
-                <div class="white-filter w-full h-full absolute top-0 left-0 bg-neutral-100 opacity-10 transition-all transition-500 group-hover:opacity-0"></div>
+                <div class="white-filter w-full h-full absolute top-0 left-0 bg-teal-200 opacity-10 transition-all transition-500 group-hover:opacity-0"></div>
             </div>
 
             <div class="project-title w-full h-full absolute top-0 left-0 flex flex-col justify-end"
@@ -18,12 +18,12 @@
                         </h1>
                     </ScrollToggle>
                     <ScrollToggle :class="project.id % 2 !== 0 ? `project-name-left` : `project-name-right`">
-                        <h2 class="text-2xl sm:text-5xl lg:text-6xl mt-3 sm:mt-5 md:mt-10 text-white-800 text-slate-500 capitalize"
+                        <h2 class="text-2xl sm:text-5xl lg:text-6xl mt-3 sm:mt-5 md:mt-10 text-white-800 text-teal-500 capitalize"
                             :class="project.id % 2 !== 0 && `sm:ml-10 xl:ml-20 `">
                             {{ project.name }}
                         </h2>
                     </ScrollToggle>
-                    <h1 class="project-num text-[60px] sm:text-[75px] md:text-[100px] lg:text-[180px] leading-tight tracking-wider">
+                    <h1 class="project-num text-[60px] sm:text-[75px] md:text-[100px] lg:text-[180px] leading-tight text-teal-300 tracking-wider">
                         {{ project.id.toString().padStart(2, '0') }}
                     </h1>
                 </div>
@@ -112,7 +112,7 @@ onMounted(()=> {
 
 .project-num,
 .project-num {
-    color: rgb(245, 245, 220);
+    color: #b6f7ef;
     background: linear-gradient(180deg, rgba(99, 96, 91, 0) 25%, rgba(99, 96, 91, 0.3));
     -webkit-background-clip: text;
     background-clip: text;

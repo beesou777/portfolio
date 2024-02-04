@@ -5,7 +5,7 @@
             <NuxtLink to="https://www.linkedin.com/in/bishwa777/"
                 @mouseenter="cursorIsHovering = true" @mouseleave="cursorIsHovering = false" 
                 class="transition-all opacity-70 hover:opacity-100 hover:scale-110">
-                <div class="bg-[#b9a859] h-10 w-10 rounded-full shadow-md flex flex-col justify-center items-center">
+                <div class="bg-[#14b8a6] h-10 w-10 rounded-full shadow-md flex bg-teal-500 flex-col justify-center items-center">
                     <Icon name="uim:linkedin-alt" size="25" color="white" />
                 </div>
             </NuxtLink>
@@ -13,14 +13,14 @@
                 @mouseenter="cursorIsHovering = true" @mouseleave="cursorIsHovering = false" 
                 class="transition-all opacity-70 hover:opacity-100 hover:scale-110">
                 <div class="bg-white h-10 w-10 rounded-full shadow-md flex flex-col justify-end items-center">
-                    <Icon name="bi:github" size="45" color="#b9a859" />
+                    <Icon name="bi:github" size="45" color="#14b8a6" />
                 </div>
             </NuxtLink>
             <NuxtLink to="https://www.facebook.com/profile.php?id=100089079516208"
                 @mouseenter="cursorIsHovering = true" @mouseleave="cursorIsHovering = false" 
-                class="transition-all opacity-70 hover:opacity-100 hover:scale-110">
+                class="transition-all opacity-70 hover:opacity-100 hover:scale-110 ">
                 <div class="bg-white h-10 w-10 rounded-full shadow-md flex flex-col justify-center items-center">
-                    <Icon name="bi:facebook" size="45" color="#b9a859" />
+                    <Icon name="bi:facebook" size="45" color="#14b8a6" />
                 </div>
             </NuxtLink>
         </div>
@@ -47,7 +47,7 @@
                 <div v-if="errorMsg" class="flex-grow text-red-700">{{ errorMsg }}</div>
                 <div v-if="successMsg" class="flex-grow text-green-700">{{ successMsg }}</div>
                 <button type="submit" @mouseenter="cursorIsHovering = true" @mouseleave="cursorIsHovering = false" 
-                    class="button px-4 py-2 self-end flex-shrink-0 disabled:hover:scale-100 " :disabled="isSending">
+                    class="button px-4 py-2 self-end flex-shrink-0 bg-teal-500 disabled:hover:scale-100 " :disabled="isSending">
                     <template v-if="!isSending">
                         <span>Send &nbsp;</span>
                         <Icon name="ph:paper-plane-right-fill" />

@@ -1,7 +1,7 @@
 <template>
     <div class="fixed z-30 bottom-0 my-5 w-full text-center"> 
         <button @click="isOpenMenu = !isOpenMenu" @mouseenter="cursorIsHovering = true" @mouseleave="cursorIsHovering = false" 
-            class="button bg-[#ACA393] h-12 w-12 rounded-full opacity-80">
+            class="button bg-teal-500 h-12 w-12 rounded-full opacity-80">
             <Icon v-if="isOpenMenu" name="mingcute:close-fill" color="white" size="20"/>
             <Icon v-else name="mingcute:menu-fill" color="white" size="20"/>
             <svg v-if="isOpenMenu" width="138" class="bubble-menu" height="136" viewBox="0 0 138 136" fill="none" xmlns="http://www.w3.org/2000/svg">

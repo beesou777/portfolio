@@ -5,14 +5,14 @@
         </ScrollParallax>
         <div class="short-bio-text flex-grow w-[90%]">
             <h1 class="text-3xl sm:text-4xl lg:text-5xl mb-6">
-                Hi there! <nobr>I am <span class="text-highlight">Bishwa</span>.</nobr>
+                Hi there! <nobr>I am <span class="text-highlight text-teal-500">Bishwa</span>.</nobr>
                 <br />Nice to meet you.
             </h1>
             <p class="text-lg sm:text-xl lg:text-2xl !leading-relaxed">
-                I am a <span class="text-highlight font-bold">full-stack web developer</span> from Nepal.
-                I am passionate about <span class="text-highlight font-bold">creating websites</span>.
-                A passionate <em class="em text-highlight font-bold">Web-developer</em> who is working in this field for
-                <em class="em text-highlight font-bold">last 1.5+ years.</em>
+                I am a <span class="text-highlight font-bold text-teal-500">full-stack web developer</span> from Nepal.
+                I am passionate about <span class="text-highlight font-bold text-teal-500">creating websites</span>.
+                A passionate <em class="em text-highlight font-bold text-teal-500">Web-developer</em> who is working in this field for
+                <em class="em text-highlight font-bold text-teal-500">last 1.5+ years.</em>
                 I’m ready to give you my best.
             </p>
         </div>
@@ -24,6 +24,6 @@
 
 <style scoped>
 .short-bio-image {
-  box-shadow: 15px 15px 0px #e4c6bf;
+  box-shadow: 15px 15px 0px #14b8a6;
 }
 </style>

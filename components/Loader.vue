@@ -1,5 +1,5 @@
 <template>
-    <div class="loader fixed w-full h-full z-40 bg-[#617079] flex flex-col justify-center items-center gap-6"
+    <div class="loader fixed w-full h-full z-40 bg-teal-400 flex flex-col justify-center items-center gap-6"
         :class="isActive && 'active'">
         <LoaderBubbles />
         <LoaderText />
